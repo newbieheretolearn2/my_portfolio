@@ -6,6 +6,7 @@ import Landing  from './scenes/Landing'
 import LineGradient from "./components/LineGradient";
 import Myskills from "./scenes/Myskills"
 import MyProjects from "./scenes/MyProjects"
+import Contact from "./scenes/Contact"
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   const isAboveMediumScreens = useMediaQuery("(min-width : 1060px)");
@@ -49,6 +50,10 @@ useEffect(() => {
       <LineGradient />
       <div className="w-5/6 mx-auto " >
         <MyProjects />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto " >
+        <Contact />
       </div>
     </div>
 
