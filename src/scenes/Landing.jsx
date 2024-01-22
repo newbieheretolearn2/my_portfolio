@@ -55,8 +55,7 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Nomen mihi est Zakaria, sum discipulus quarti anni scientiae
-            computatoriae.
+         Developer Web Full-Stack  Ingénieur d'etat en informatique et Réseaux option MIAGE ,Candidat de stage PFE
           </p>
         </motion.div>
 

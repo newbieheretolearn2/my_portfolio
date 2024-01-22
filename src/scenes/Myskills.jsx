@@ -23,9 +23,8 @@ const MySkills = () => {
             MY <span className="text-red">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+          <p className="mt-10 mb-7 font-bold ">
+                    Various Skills in various fields
           </p>
         </motion.div>
 
@@ -65,15 +64,15 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
+                Front-End
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+          <p className="mt-5 text-xl">
+          My mastery of React / Next.js allows me to create dynamic and interactive user interfaces,
+           while Bootstrap or Tailwind CSS enable me to craft visually appealing,
+            responsive designs. With a keen eye for detail and a deep understanding of CSS
           </p>
         </motion.div>
 
@@ -93,16 +92,14 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Back-End
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+          <p className="mt-5 text-xl">
+          I am proficient in back-end technologies such as Spring Boot, Node.js, and Express.js.
+           I specialize in creating APIs that seamlessly connect the front end to the back end
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -121,16 +118,15 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Data Science
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+          I am currently deeply engrossed in the fascinating realms of data science and artificial intelligence.
+           The potential for these fields to unlock insights, automate processes,. From data analysis and machine learning to neural networks and natural language processing,
+            I am committed to expanding my knowledge and skills in these areas
           </p>
         </motion.div>
       </div>
